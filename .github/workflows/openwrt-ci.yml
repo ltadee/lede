@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: LTADEE-lede-cloud-compile V1.0
+name: LTADEE-lede-cloud-compile V1.1
 
 on:
   push:
