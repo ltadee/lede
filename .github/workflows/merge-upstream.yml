@@ -55,7 +55,7 @@ jobs:
           # ln -s /mnt/openwrt/feeds ./feeds
           # ln -s /mnt/openwrt/staging_dir ./staging_dir
           df -h
-     - name: add plugin
+      - name: add plugin
         run: |
           cd package
           mkdir openwrt-packages
