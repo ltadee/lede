@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: L-lede-hulk-cloud-compile V2.0
+name: LTADEE-lede-cloud-compile V1.0
 
 on:
   push:
