@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: LTADEE-OpenWrt-1.2.1
+name: LTADEE-OpenWrt-1.2.2
 
 on:
   push:
@@ -127,6 +127,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-ttyd=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
           CONFIG_PACKAGE_luci-app-netdata=y
+          CONFIG_PACKAGE_luci-app-openclash=y
           EOF
           # LuCI主题:
           cat >> .config <<EOF
